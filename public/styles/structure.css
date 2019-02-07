@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 1.8em;
-  color: black;
+  color: red;
   margin-bottom: 20px;
 }
 
@@ -57,7 +57,7 @@ main {
 
 .flex {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
 }
 
@@ -69,5 +69,6 @@ main {
 #content {
   border-top: 1px solid black;
   padding-left: 25px;
-  padding-top:20px;
+  padding-top:0px;
+  float: right;
 }
